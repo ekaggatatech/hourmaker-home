@@ -14,6 +14,7 @@ import TermsPage from "./pages/TermsPage.jsx";
 import BlogPostPage from "./pages/BlogPostPage.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import { Analytics } from "@vercel/analytics/react";
 
 // Feature Pages
 import FeatureOverview from "./pages/features/FeatureOverview.jsx";
@@ -58,6 +59,7 @@ const App = () => (
           <Route path="/sitemap.xml" element={<Sitemap />} />
         </Routes>
       </BrowserRouter>
+      <Analytics />
     </TooltipProvider>
   </QueryClientProvider>
 );
