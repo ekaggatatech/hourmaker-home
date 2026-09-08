@@ -41,7 +41,7 @@ export const faqData = {
       id: 7,
       question: "Is Hourmaker mobile-friendly?",
       answer:
-        "Hourmaker is a web-based platform that works on desktop and laptop browsers. While we don't currently offer a mobile app, you can access Hourmaker through any modern web browser on your computer. All features are fully optimized for desktop use.",
+        "Hourmaker is a web-based platform that works on desktop and mobile browsers. You can access Hourmaker through any modern web browser on your mobile device or computer. All features are fully optimized for both desktop and mobile use.",
     },
     {
       id: 8,
