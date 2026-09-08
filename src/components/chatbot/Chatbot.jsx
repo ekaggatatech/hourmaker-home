@@ -162,9 +162,9 @@ const Chatbot = () => {
     setMessages((prev) => [...prev, newMessage]);
   };
 
-  // Get random delay between 3-7 seconds (3000-7000ms)
+  // Get random delay between 0.5-1.5 seconds (500-1500ms)
   const getRandomDelay = () => {
-    return Math.floor(Math.random() * 4000) + 3000; // 3000-7000ms
+    return Math.floor(Math.random() * 1000) + 500; // 500-1500ms
   };
 
   const addBotMessage = (text) => {
