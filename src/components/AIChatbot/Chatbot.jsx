@@ -350,7 +350,7 @@ function App() {
 
   return (
     <>
-      <h1>AI Assistant</h1>
+      {/* <h1>AI Assistant</h1> */}
 
       <ChatbotIcon toggleChat={toggleChat} isOpen={isOpen} />
       {isOpen && (
