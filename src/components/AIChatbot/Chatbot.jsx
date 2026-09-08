@@ -363,7 +363,7 @@ function App() {
                 <span className="online-dot"></span>
               </div>
               <div>
-                <h3>Bot</h3>
+                <h3>AI Agent</h3>
                 <p>Customer Support</p>
               </div>
             </div>
@@ -409,7 +409,7 @@ function App() {
                     <div className="bot-avatar-circle">
                       <MdSmartToy size={16} />
                     </div>
-                    <span>Bot</span>
+                    <span>AI Agent</span>
                   </div>
                 )}
                 <div className={`message-bubble ${msg.sender}`}>
