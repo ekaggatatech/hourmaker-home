@@ -662,9 +662,9 @@
         "mobile application"
       ],
       "answers": [
-        "Hourmaker currently does NOT offer a mobile app. The platform is available as a web application that can be accessed through any modern web browser on your desktop or laptop computer. We recommend using the web version for all features and functionality.",
-        "No, Hourmaker does not have a mobile app at this time. You can access Hourmaker through your web browser on any desktop or laptop computer. All features are fully available through the web interface.",
-        "Hourmaker does not currently provide a mobile application. The platform is designed to work seamlessly on desktop and laptop browsers. We'll notify our users if a mobile app becomes available in the future."
+        "The platform is available as a web application that can be accessed through any modern web browser on your mobile device, desktop, or laptop computer. We recommend using the web version for all features and functionality.",
+        "No, Hourmaker does not have a native mobile app at this time, but it runs perfectly on a mobile browser. You can access Hourmaker through your web browser on any mobile device, desktop, or laptop computer. All features are fully available through the web interface.",
+        "Hourmaker does not currently provide a native mobile application. The platform is designed to work seamlessly on mobile, desktop, and laptop browsers."
       ]
     },
     {
