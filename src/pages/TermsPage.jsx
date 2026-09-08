@@ -37,7 +37,7 @@ const TermsPage = () => {
                 </p>
                 <ul className="list-disc pl-6 text-muted-foreground space-y-2 mt-4">
                   <li>the HourMaker marketing website;</li>
-                  <li>the HourMaker web and mobile applications;</li>
+                  <li>the HourMaker web applications (accessible via desktop and mobile browsers);</li>
                   <li>workforce-management dashboards;</li>
                   <li>time-tracking and attendance features;</li>
                   <li>leave and holiday management;</li>
