@@ -337,7 +337,7 @@ export const features = [
     icon: CalendarDays,
     image: "feature-holiday.png",
     title: "Holiday Management",
-    videoId: "FUKqIZopDGg", // Demo video
+    videoId: "6BkK7qXji-Y",
     shortDescription:
       "Centralized holiday calendar management with automated calculations and regional support.",
     description:
@@ -871,7 +871,7 @@ export const features = [
     icon: FolderOpen,
     image: "feature-projects.png",
     title: "Project Management",
-    videoId: "FUKqIZopDGg", // Demo video
+    videoId: "TAyfWCC7JUI",
     shortDescription:
       "Comprehensive project management with time tracking, budgets, and profitability analysis.",
     description:
@@ -937,7 +937,7 @@ export const features = [
     icon: ChartBar,
     image: "feature-analytics.png",
     title: "Reporting & Analytics",
-    videoId: "FUKqIZopDGg", // Demo video
+    videoId: "NhwHVrBLS3s",
     shortDescription:
       "Powerful analytics and customizable dashboards for data-driven decisions.",
     description:
@@ -1137,7 +1137,7 @@ export const features = [
     icon: CalendarClockIcon,
     image: "feature-meeting.png",
     title: "Meeting Management",
-    videoId: "FUKqIZopDGg", // Demo video
+    videoId: "KBlAVRwJ8HI",
     shortDescription:
       "Smart meeting scheduler that integrates with calendars and automates scheduling.",
     description:
@@ -1203,7 +1203,7 @@ export const features = [
     icon: Megaphone,
     image: "feature-announcement.png",
     title: "Communication & Announcements",
-    videoId: "FUKqIZopDGg", // Demo video
+    videoId: "f28eFQdmh-4",
     shortDescription:
       "Centralized communication platform for announcements and team updates.",
     description:
@@ -1621,7 +1621,7 @@ export const features = [
     icon: LifeBuoy,
     image: "feature-help.png",
     title: "Helpdesk & Support",
-    videoId: "FUKqIZopDGg", // Demo video
+    videoId: "tDzeytqIOhk",
     shortDescription:
       "Complete helpdesk system with ticket management and support workflows.",
     description:
@@ -1843,7 +1843,7 @@ export const features = [
     icon: Building,
     image: "feature-company.png",
     title: "Company Management",
-    videoId: "FUKqIZopDGg", // Demo video
+    videoId: "HlvHak5sw9Q",
     shortDescription: "Centralized company profile and settings management.",
     description:
       "Manage company profile, settings, and configurations from one place. Maintain accurate company information and configure system-wide settings.",
