@@ -468,8 +468,7 @@ export const features = [
     slug: "team-management",
     icon: UsersRound,
     image: "feature-autotimesheet.png",
-    title: "Team Management",
-    videoId: "FUKqIZopDGg", // Demo video
+    title: "WLaBde5Z75Y",
     shortDescription:
       "Create and manage teams with complete visibility into team performance.",
     description:
@@ -663,64 +662,64 @@ export const features = [
   },
 
   // Attendance Management
-  {
-    id: "attendance-management",
-    slug: "attendance-management",
-    icon: Fingerprint,
-    image: "feature-attendance.png",
-    title: "Attendance Management",
-    videoId: "FUKqIZopDGg", // Demo video
-    shortDescription:
-      "Comprehensive attendance tracking with multiple check-in methods and real-time monitoring.",
-    description:
-      "Track attendance effortlessly with multiple check-in methods including web application. Monitor attendance in real-time and get instant alerts for absenteeism.",
-    details: [
-      {
-        title: "Multiple Check-in Methods",
-        explanation:
-          "Support web-based check-ins. Employees can mark attendance from anywhere, using any method.",
-        benefits: ["Flexible options", "Anywhere access", "Multiple methods"],
-      },
-      {
-        title: "Real-time Monitoring",
-        explanation:
-          "Monitor attendance in real-time. See who's checked in, who's late, and who's absent at a glance.",
-        benefits: ["Real-time view", "Instant alerts", "Quick overview"],
-      },
-      {
-        title: "Late Check-in Management",
-        explanation:
-          "Track late check-ins automatically. Configure grace periods and late entry policies.",
-        benefits: ["Grace periods", "Late tracking", "Policy enforcement"],
-      },
-      {
-        title: "Absenteeism Tracking",
-        explanation:
-          "Track absenteeism patterns and get alerts for excessive absences. Generate attendance reports for compliance.",
-        benefits: ["Pattern tracking", "Alert system", "Compliance reports"],
-      },
-      {
-        title: "Attendance Reports",
-        explanation:
-          "Generate comprehensive attendance reports for payroll, compliance, and performance analysis.",
-        benefits: ["Payroll ready", "Compliance ready", "Performance insights"],
-      },
-    ],
-    benefits: [
-      {
-        title: "Zero Manual Work",
-        description: "Attendance tracks itself with multiple options",
-      },
-      {
-        title: "Real-time Visibility",
-        description: "See attendance status instantly",
-      },
-      {
-        title: "Compliance Ready",
-        description: "Built-in attendance compliance",
-      },
-    ],
-  },
+  // {
+  //   id: "attendance-management",
+  //   slug: "attendance-management",
+  //   icon: Fingerprint,
+  //   image: "feature-attendance.png",
+  //   title: "Attendance Management",
+  //   videoId: "FUKqIZopDGg", // Demo video
+  //   shortDescription:
+  //     "Comprehensive attendance tracking with multiple check-in methods and real-time monitoring.",
+  //   description:
+  //     "Track attendance effortlessly with multiple check-in methods including web application. Monitor attendance in real-time and get instant alerts for absenteeism.",
+  //   details: [
+  //     {
+  //       title: "Multiple Check-in Methods",
+  //       explanation:
+  //         "Support web-based check-ins. Employees can mark attendance from anywhere, using any method.",
+  //       benefits: ["Flexible options", "Anywhere access", "Multiple methods"],
+  //     },
+  //     {
+  //       title: "Real-time Monitoring",
+  //       explanation:
+  //         "Monitor attendance in real-time. See who's checked in, who's late, and who's absent at a glance.",
+  //       benefits: ["Real-time view", "Instant alerts", "Quick overview"],
+  //     },
+  //     {
+  //       title: "Late Check-in Management",
+  //       explanation:
+  //         "Track late check-ins automatically. Configure grace periods and late entry policies.",
+  //       benefits: ["Grace periods", "Late tracking", "Policy enforcement"],
+  //     },
+  //     {
+  //       title: "Absenteeism Tracking",
+  //       explanation:
+  //         "Track absenteeism patterns and get alerts for excessive absences. Generate attendance reports for compliance.",
+  //       benefits: ["Pattern tracking", "Alert system", "Compliance reports"],
+  //     },
+  //     {
+  //       title: "Attendance Reports",
+  //       explanation:
+  //         "Generate comprehensive attendance reports for payroll, compliance, and performance analysis.",
+  //       benefits: ["Payroll ready", "Compliance ready", "Performance insights"],
+  //     },
+  //   ],
+  //   benefits: [
+  //     {
+  //       title: "Zero Manual Work",
+  //       description: "Attendance tracks itself with multiple options",
+  //     },
+  //     {
+  //       title: "Real-time Visibility",
+  //       description: "See attendance status instantly",
+  //     },
+  //     {
+  //       title: "Compliance Ready",
+  //       description: "Built-in attendance compliance",
+  //     },
+  //   ],
+  // },
 
   // Task Management
   {
@@ -1071,64 +1070,64 @@ export const features = [
   },
 
   // Role Management
-  {
-    id: "role-management",
-    slug: "role-management",
-    icon: UserCog,
-    image: "feature-access.png",
-    title: "Role Management",
-    videoId: "FUKqIZopDGg", // Demo video
-    shortDescription:
-      "Define and manage roles across your organization with granular control.",
-    description:
-      "Create custom roles with specific permissions for different job functions. Assign roles to users and manage role hierarchies efficiently.",
-    details: [
-      {
-        title: "Custom Role Creation",
-        explanation:
-          "Create custom roles with specific permissions tailored to your organization's needs.",
-        benefits: ["Custom roles", "Flexible permissions", "Role templates"],
-      },
-      {
-        title: "Role Hierarchy",
-        explanation:
-          "Establish role hierarchies with clear reporting lines and approval chains.",
-        benefits: ["Clear structure", "Approval chains", "Reporting lines"],
-      },
-      {
-        title: "Permission Templates",
-        explanation:
-          "Use pre-built permission templates for common roles like admin, manager, employee.",
-        benefits: ["Quick setup", "Best practices", "Consistent permissions"],
-      },
-      {
-        title: "Role Assignment",
-        explanation:
-          "Easily assign roles to users with bulk operations and automated workflows.",
-        benefits: ["Easy assignment", "Bulk operations", "Auto provisioning"],
-      },
-      {
-        title: "Audit Trail",
-        explanation:
-          "Track all role changes and permission modifications for compliance purposes.",
-        benefits: ["Complete audit", "Change tracking", "Compliance ready"],
-      },
-    ],
-    benefits: [
-      {
-        title: "Custom Roles",
-        description: "Create roles that fit your organization",
-      },
-      {
-        title: "Granular Control",
-        description: "Fine-tuned permissions for every role",
-      },
-      {
-        title: "Easy Management",
-        description: "Simple role assignment and updates",
-      },
-    ],
-  },
+  // {
+  //   id: "role-management",
+  //   slug: "role-management",
+  //   icon: UserCog,
+  //   image: "feature-access.png",
+  //   title: "Role Management",
+  //   videoId: "FUKqIZopDGg", // Demo video
+  //   shortDescription:
+  //     "Define and manage roles across your organization with granular control.",
+  //   description:
+  //     "Create custom roles with specific permissions for different job functions. Assign roles to users and manage role hierarchies efficiently.",
+  //   details: [
+  //     {
+  //       title: "Custom Role Creation",
+  //       explanation:
+  //         "Create custom roles with specific permissions tailored to your organization's needs.",
+  //       benefits: ["Custom roles", "Flexible permissions", "Role templates"],
+  //     },
+  //     {
+  //       title: "Role Hierarchy",
+  //       explanation:
+  //         "Establish role hierarchies with clear reporting lines and approval chains.",
+  //       benefits: ["Clear structure", "Approval chains", "Reporting lines"],
+  //     },
+  //     {
+  //       title: "Permission Templates",
+  //       explanation:
+  //         "Use pre-built permission templates for common roles like admin, manager, employee.",
+  //       benefits: ["Quick setup", "Best practices", "Consistent permissions"],
+  //     },
+  //     {
+  //       title: "Role Assignment",
+  //       explanation:
+  //         "Easily assign roles to users with bulk operations and automated workflows.",
+  //       benefits: ["Easy assignment", "Bulk operations", "Auto provisioning"],
+  //     },
+  //     {
+  //       title: "Audit Trail",
+  //       explanation:
+  //         "Track all role changes and permission modifications for compliance purposes.",
+  //       benefits: ["Complete audit", "Change tracking", "Compliance ready"],
+  //     },
+  //   ],
+  //   benefits: [
+  //     {
+  //       title: "Custom Roles",
+  //       description: "Create roles that fit your organization",
+  //     },
+  //     {
+  //       title: "Granular Control",
+  //       description: "Fine-tuned permissions for every role",
+  //     },
+  //     {
+  //       title: "Easy Management",
+  //       description: "Simple role assignment and updates",
+  //     },
+  //   ],
+  // },
 
   // Meeting Management
   {
