@@ -468,7 +468,7 @@ export const features = [
     slug: "team-management",
     icon: UsersRound,
     image: "feature-autotimesheet.png",
-    title: "WLaBde5Z75Y",
+    title: "Team Management",
     shortDescription:
       "Create and manage teams with complete visibility into team performance.",
     description:
