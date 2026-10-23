@@ -13,7 +13,7 @@ Accurate time tracking is the foundation of effective workforce management. Yet,
 
 ## 1. Simplify the Time Entry Process
 
-The easier you make it for employees to log their time, the more likely they are to do it accurately. Modern time tracking software like Hourmaker offers one-click clock-in, and automatic time capture to reduce friction.
+The easier you make it for employees to log their time, the more likely they are to do it accurately. Modern time tracking software like Hourmaker offers one-click clock-in and automatic time capture to reduce friction.
 
 **Key Insight:** Companies that simplify time entry see a 40% improvement in compliance rates within the first month.
 

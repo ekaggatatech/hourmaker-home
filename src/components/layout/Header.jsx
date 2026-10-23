@@ -50,7 +50,6 @@ const featureCategories = [
         href: "/features/permission-management",
       },
       { label: "Reporting & Analytics", href: "/features/reporting-analytics" },
-      { label: "Role Management", href: "/features/role-management" },
       { label: "Company Management", href: "/features/company-management" },
     ],
   },
@@ -69,8 +68,6 @@ const companyDropdown = [
 const resourcesDropdown = [
   { label: "Blog", href: "/resources" },
   { label: "Help Center", href: "/resources#help" },
-  { label: "Case Studies", href: "/resources#case-studies" },
-  { label: "Demo Videos", href: "/resources#webinars" },
 ];
 
 const NavItem = ({
@@ -327,7 +324,6 @@ const Header = () => {
               lightOnDark={!isScrolled}
               isActive={
                 isActiveDropdown(companyDropdown) ||
-                isActiveRoute("/careers") ||
                 isActiveRoute("/privacy-policy") ||
                 isActiveRoute("/terms")
               }

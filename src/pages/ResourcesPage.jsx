@@ -20,6 +20,8 @@ import Layout from "../components/layout/Layout";
 import ScrollReveal from "../components/ui/ScrollReveal";
 import { blogPosts } from "../data/blogPosts";
 import { features } from "../data/features";
+import SEO from "../components/SEO";
+import { seoConfig } from "../config/seoConfig";
 
 const ResourcesPage = () => {
   const location = useLocation();
@@ -83,13 +85,19 @@ const ResourcesPage = () => {
 
   return (
     <Layout>
+      <SEO
+        title={seoConfig.resources.title}
+        description={seoConfig.resources.description}
+        keywords={seoConfig.resources.keywords}
+        canonicalUrl={seoConfig.resources.canonical}
+      />
       {/* Hero Section */}
       <section className="relative section-band-light py-20 text-center overflow-hidden">
         <span className="float-orb float-orb-a" aria-hidden />
         <span className="float-orb float-orb-c" aria-hidden />
         <ScrollReveal className="container max-w-4xl relative z-10">
           <h1 className="font-poppins text-3xl md:text-4xl lg:text-5xl font-bold text-primary-dark mb-6">
-            Resources & <span className="text-primary">Learning</span>
+            {seoConfig.resources.h1}
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground">
             Explore our blog and feature documentation to get the most out of

@@ -1,16 +1,24 @@
 import Layout from "../components/layout/Layout";
+import SEO from "../components/SEO";
+import { seoConfig } from "../config/seoConfig";
 
 const TermsPage = () => {
   return (
     <Layout>
+      <SEO
+        title={seoConfig.terms.title}
+        description={seoConfig.terms.description}
+        keywords={seoConfig.terms.keywords}
+        canonicalUrl={seoConfig.terms.canonical}
+      />
       {/* Hero Section */}
       <section className="section-band-light py-16 text-center relative overflow-hidden">
         <span className="float-orb float-orb-b" aria-hidden />
         <div className="container max-w-4xl relative z-10">
           <h1 className="font-poppins text-3xl md:text-4xl lg:text-5xl font-bold text-primary-dark mb-4">
-            Terms of Service
+            {seoConfig.terms.h1}
           </h1>
-          <p className="text-muted-foreground">Last updated: 20 August, 2026</p>
+          <p className="text-muted-foreground">Last updated: 20 August 2026</p>
         </div>
       </section>
 
@@ -37,7 +45,10 @@ const TermsPage = () => {
                 </p>
                 <ul className="list-disc pl-6 text-muted-foreground space-y-2 mt-4">
                   <li>the HourMaker marketing website;</li>
-                  <li>the HourMaker web applications (accessible via desktop and mobile browsers);</li>
+                  <li>
+                    the HourMaker web applications (accessible via desktop and
+                    mobile browsers);
+                  </li>
                   <li>workforce-management dashboards;</li>
                   <li>time-tracking and attendance features;</li>
                   <li>leave and holiday management;</li>
@@ -1296,7 +1307,7 @@ const TermsPage = () => {
                   16.6 Billing disputes
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Billing disputes must be submitted within 07 days of the
+                  Billing disputes must be submitted within 7 days of the
                   relevant invoice or charge. The Customer must provide
                   sufficient information to investigate the dispute. Undisputed
                   amounts remain payable.
@@ -2509,7 +2520,7 @@ const TermsPage = () => {
                   43. Notices
                 </h2>
                 <h3 className="font-poppins text-lg font-semibold text-primary-dark mb-2">
-                  43.1 Notices from HourMaker
+                  Notices from HourMaker
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
                   HourMaker may provide notices through:
@@ -2760,7 +2771,7 @@ const TermsPage = () => {
               </div>
 
               {/* Documents that should accompany these Terms */}
-              <div>
+              {/* <div>
                 <h2 className="font-poppins text-2xl font-bold text-primary-dark mb-4">
                   Accompanying Documents
                 </h2>
@@ -2782,7 +2793,7 @@ const TermsPage = () => {
                   <li>Responsible Vulnerability Disclosure Policy</li>
                   <li>Accessibility Statement</li>
                 </ol>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

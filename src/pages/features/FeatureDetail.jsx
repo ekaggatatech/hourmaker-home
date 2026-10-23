@@ -95,87 +95,11 @@ const FeatureDetail = () => {
         <span className="float-orb float-orb-a" aria-hidden />
         <span className="float-orb float-orb-c" aria-hidden />
         <div className="container max-w-6xl relative z-10">
-          {/* SEO H1 */}
-          <h1 className="sr-only">
-            {feature.id === "automatic-tracking" &&
-              "Smart Time Tracking Software for Teams"}
-            {feature.id === "manual-tracking" &&
-              "Manual Timesheet Entry & Approval System"}
-            {feature.id === "attendance" &&
-              "Employee Attendance Tracking System"}
-            {feature.id === "onboarding" &&
-              "Leave Management System for Employees"}
-            {feature.id === "projects" &&
-              "Project Tracking & Productivity Monitoring Tool"}
-            {feature.id === "billing" &&
-              "Automated Billing Management Software"}
-            {feature.id === "invoicing" &&
-              "Professional Invoicing Software for Businesses"}
-            {feature.id === "analytics" &&
-              "Workforce Analytics & Reporting Dashboard"}
-            {feature.id === "holiday" && "Holiday & Calendar Management System"}
-            {feature.id === "meeting-scheduling" &&
-              "Smart Meeting Scheduler with Calendar Integration"}
-            {feature.id === "client-management" &&
-              "Client Portal & Project Management Software"}
-            {feature.id === "user-management" &&
-              "Centralized User Management System"}
-            {feature.id === "access-management" &&
-              "Role-Based Access Control & Security Management"}
-            {feature.id === "docs-portal" && "Secure Cloud Document Repository"}
-            {feature.id === "permission-management" &&
-              "Permission Management & Access Control System"}
-            {feature.id === "shift-management" &&
-              "Shift Management & Scheduling System"}
-            {feature.id === "holiday-management" &&
-              "Holiday & Calendar Management System"}
-            {feature.id === "team-management" &&
-              "Team Management & Collaboration Platform"}
-            {feature.id === "attendance-management" &&
-              "Employee Attendance Tracking System"}
-            {feature.id === "task-management" &&
-              "Task Management & Project Tracking System"}
-            {feature.id === "leave-management" &&
-              "Leave Management System for Employees"}
-            {feature.id === "project-management" &&
-              "Project Tracking & Productivity Monitoring Tool"}
-            {feature.id === "reporting-analytics" &&
-              "Workforce Analytics & Reporting Dashboard"}
-            {feature.id === "activity-management" &&
-              "Activity Management & Audit Trail System"}
-            {feature.id === "role-management" &&
-              "Role Management & Permission Control System"}
-            {feature.id === "meeting-management" &&
-              "Smart Meeting Scheduler with Calendar Integration"}
-            {feature.id === "communication-announcement" &&
-              "Communication & Announcement Management System"}
-            {feature.id === "onboarding-management" &&
-              "Employee Onboarding & Recruitment Integration"}
-            {feature.id === "recruitment-management" &&
-              "Recruitment Management & Applicant Tracking"}
-            {feature.id === "referral-management" &&
-              "Employee Referral Management System"}
-            {feature.id === "job-opening-management" &&
-              "Job Opening Management & Tracking"}
-            {feature.id === "document-management" &&
-              "Secure Cloud Document Repository"}
-            {feature.id === "helpdesk-support" &&
-              "Helpdesk & Support Ticket Management"}
-            {feature.id === "billing-management" &&
-              "Billing Management & Revenue Tracking"}
-            {feature.id === "company-management" &&
-              "Company Management & Settings"}
-            {feature.id === "dashboard" && "Dashboard & Overview Management"}
-            {/* Fallback for any new features */}
-            {!feature.id?.match(
-              /automatic-tracking|manual-tracking|attendance|onboarding|projects|billing|invoicing|analytics|holiday|meeting-scheduling|client-management|user-management|access-management|docs-portal|permission-management|shift-management|holiday-management|team-management|attendance-management|task-management|leave-management|project-management|reporting-analytics|activity-management|role-management|meeting-management|communication-announcement|onboarding-management|recruitment-management|referral-management|job-opening-management|document-management|helpdesk-support|billing-management|company-management|dashboard/,
-            ) && `${feature.title} | HourMaker Workforce Management`}
-          </h1>
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Left Column - Intro */}
             <ScrollReveal variant="fade-right">
               <h1 className="font-poppins text-3xl md:text-4xl lg:text-5xl font-bold text-primary-dark mb-6">
-                {feature.title}
+                {seoData.h1 || feature.title}
               </h1>
               <p className="text-lg text-muted-foreground mb-8">
                 {feature.description}

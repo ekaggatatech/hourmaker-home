@@ -7,9 +7,7 @@ const generateSitemap = () => {
     { path: "/features", priority: "0.9", changefreq: "weekly" },
     { path: "/pricing", priority: "0.9", changefreq: "monthly" },
     { path: "/company", priority: "0.8", changefreq: "monthly" },
-    { path: "/documentation", priority: "0.8", changefreq: "monthly" },
     { path: "/resources", priority: "0.8", changefreq: "weekly" },
-    { path: "/careers", priority: "0.7", changefreq: "monthly" },
     { path: "/privacy-policy", priority: "0.5", changefreq: "yearly" },
     { path: "/terms", priority: "0.5", changefreq: "yearly" },
   ];
@@ -18,18 +16,18 @@ const generateSitemap = () => {
   const features = [
     "automatic-tracking",
     "manual-tracking",
-    "attendance",
-    "onboarding",
-    "projects",
-    "billing",
+    "leave-management",
+    "onboarding-management",
+    "project-management",
+    "billing-management",
     "invoicing",
-    "analytics",
-    "holiday",
-    "meeting-scheduling",
+    "reporting-analytics",
+    "holiday-management",
+    "meeting-management",
     "client-management",
     "user-management",
-    "access-management",
-    "docs-portal",
+    "permission-management",
+    "document-management",
   ];
 
   const featurePages = features.map((feature) => ({

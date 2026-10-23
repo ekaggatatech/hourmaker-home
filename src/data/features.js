@@ -407,7 +407,7 @@ export const features = [
     shortDescription:
       "Comprehensive client portal with project visibility, billing, and communication.",
     description:
-      "Give your clients visibility into their projects while maintaining control. Client updates, project updates, and billing all in one place.",
+      "Give your clients visibility into their projects while maintaining control. Client communication, project status, and billing all in one place.",
     details: [
       {
         title: "Project Visibility",
@@ -547,7 +547,7 @@ export const features = [
       {
         title: "Real-time Tracking",
         explanation:
-          "Time is tracked in real-time on your active devices. Whether you're on your desktop, or laptop, every minute is captured accurately and synced instantly.",
+          "Time is tracked in real time on your active devices. Whether you're on your desktop or laptop, every minute is captured accurately and synced instantly.",
         benefits: ["Instant updates", "Always accurate", "Multi-device"],
       },
       {
@@ -625,13 +625,13 @@ export const features = [
       {
         title: "Smart Copy Functionality",
         explanation:
-          "Never enter the same time twice. Copy previous days, or entire timesheets with one click. Smart suggestions based on your history speed up entry even further.",
+          "Never enter the same time twice. Copy previous days or entire timesheets with one click. Smart suggestions based on your history speed up entry even further.",
         benefits: ["One-click copy", "Time-saving", "Smart suggestions"],
       },
       {
         title: "Bulk Time Entry",
         explanation:
-          "Enter time for multiple projects, tasks, at once. Perfect for managers who need to submit team timesheets or handle corrections.",
+          "Enter time for multiple projects and tasks at once. Perfect for managers who need to submit team timesheets or handle corrections.",
         benefits: [
           "Multiple entries at once",
           "Team management",
@@ -1770,7 +1770,7 @@ export const features = [
     shortDescription:
       "Professional invoice generation with customizable templates and automated delivery.",
     description:
-      "Create stunning, professional invoices in seconds. Choose between manual and automatic invoice generation. Customize templates, and automate delivery to clients.",
+      "Create stunning, professional invoices in seconds. Choose between manual and automatic invoice generation, customize templates, and automate delivery.",
     details: [
       {
         title: "Manual Invoicing",

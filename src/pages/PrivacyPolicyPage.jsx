@@ -1,16 +1,24 @@
 import Layout from "../components/layout/Layout";
+import SEO from "../components/SEO";
+import { seoConfig } from "../config/seoConfig";
 
 const PrivacyPolicyPage = () => {
   return (
     <Layout>
+      <SEO
+        title={seoConfig.privacy.title}
+        description={seoConfig.privacy.description}
+        keywords={seoConfig.privacy.keywords}
+        canonicalUrl={seoConfig.privacy.canonical}
+      />
       {/* Hero Section */}
       <section className="section-band-light py-16 text-center relative overflow-hidden">
         <span className="float-orb float-orb-a" aria-hidden />
         <div className="container max-w-4xl relative z-10">
           <h1 className="font-poppins text-3xl md:text-4xl lg:text-5xl font-bold text-primary-dark mb-4">
-            Privacy Policy
+            {seoConfig.privacy.h1}
           </h1>
-          <p className="text-muted-foreground">Last updated: January 1, 2025</p>
+          <p className="text-muted-foreground">Last updated: 20 August 2026</p>
         </div>
       </section>
 
@@ -21,12 +29,12 @@ const PrivacyPolicyPage = () => {
             <div className="prose max-w-none space-y-8">
               {/* Important Notice */}
               <div>
-                <p className="text-muted-foreground leading-relaxed font-semibold">
+                {/* <p className="text-muted-foreground leading-relaxed font-semibold">
                   Important: Complete every highlighted placeholder and have
                   qualified legal counsel review this policy against HourMaker's
                   actual data flows, vendors, hosting locations, retention
                   practices and applicable jurisdictions before publication.
-                </p>
+                </p> */}
                 {/* <p className="text-muted-foreground leading-relaxed mt-4">
                   Effective Date: 1 April, 2030
                 </p>
@@ -1955,8 +1963,8 @@ const PrivacyPolicyPage = () => {
                   22. Mobile browser permissions
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  HourMaker running on a mobile browser may request permission to
-                  access:
+                  HourMaker running on a mobile browser may request permission
+                  to access:
                 </p>
                 <ul className="list-disc pl-6 text-muted-foreground space-y-2 mt-4">
                   <li>location;</li>
@@ -2237,4 +2245,3 @@ const PrivacyPolicyPage = () => {
 };
 
 export default PrivacyPolicyPage;
-

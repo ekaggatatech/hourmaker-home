@@ -7,6 +7,7 @@ import {
   Shield,
   GraduationCap,
   ChevronDown,
+  Info,
 } from "lucide-react";
 import Layout from "../components/layout/Layout";
 import DemoModal from "../components/DemoModal";
@@ -23,6 +24,8 @@ import {
   isFeatureIncluded,
 } from "../data/price";
 import { usePricingRegion } from "../hooks/usePricingRegion";
+import SEO from "../components/SEO";
+import { seoConfig } from "../config/seoConfig";
 
 // Icon mapping for add-ons
 const iconMap = {
@@ -108,6 +111,12 @@ const PricingPage = () => {
 
   return (
     <Layout>
+      <SEO
+        title={seoConfig.pricing.title}
+        description={seoConfig.pricing.description}
+        keywords={seoConfig.pricing.keywords}
+        canonicalUrl={seoConfig.pricing.canonical}
+      />
       {/* Hero Section */}
       <section className="relative section-band-light py-20 text-center overflow-hidden">
         <span className="float-orb float-orb-a" aria-hidden />
@@ -120,7 +129,7 @@ const PricingPage = () => {
               <span className="w-5 h-0.5 bg-primary"></span>
             </div>
             <h1 className="font-poppins text-3xl md:text-4xl lg:text-5xl font-bold text-primary-dark mb-6">
-              Simple, Transparent Pricing
+              {seoConfig.pricing.h1}
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
               Choose the perfect plan for your team. All plans include the same
@@ -230,11 +239,6 @@ const PricingPage = () => {
                       </div>
                     )}
 
-                    {/* Plan Category */}
-                    <div className="text-center text-primary text-xs font-bold tracking-wider uppercase mt-4 mb-2">
-                      {plan.name}
-                    </div>
-
                     {/* Plan Name */}
                     <h3 className="text-center text-2xl font-bold text-primary-dark mb-4">
                       {plan.name}
@@ -328,6 +332,16 @@ const PricingPage = () => {
                     >
                       {ctaText}
                     </button>
+                    {plan.id === "basic" ? (
+                      <p className="mt-2 text-center text-xs text-muted-foreground">
+                        Lifetime free for up to 5 employees.
+                      </p>
+                    ) : (
+                      <p className="mt-2 flex items-center justify-center gap-1 text-center text-xs text-muted-foreground">
+                        <Info className="h-3.5 w-3.5 flex-shrink-0" aria-hidden="true" />
+                        No credit card required for your 30-day free trial.
+                      </p>
+                    )}
                   </div>
                 );
               })}
@@ -531,7 +545,7 @@ const PricingPage = () => {
                     <span className="absolute -left-2 -top-2 text-4xl text-primary-light font-serif">
                       "
                     </span>
-                    {review.content}
+                    {review.content}"
                   </p>
                   <div className="flex items-center text-sm text-muted-foreground">
                     <Check className="w-4 h-4 text-success mr-2" />

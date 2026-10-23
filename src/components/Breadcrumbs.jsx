@@ -14,7 +14,6 @@ const Breadcrumbs = () => {
       company: "Company",
       resources: "Resources",
       documentation: "Documentation",
-      careers: "Careers",
       "privacy-policy": "Privacy Policy",
       terms: "Terms of Service",
     };

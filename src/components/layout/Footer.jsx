@@ -58,15 +58,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/features/attendance"
-                  className="text-footer-muted hover:text-primary-accent transition-colors text-sm"
-                >
-                  Attendance System
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/features/onboarding"
+                  to="/features/onboarding-management"
                   className="text-footer-muted hover:text-primary-accent transition-colors text-sm"
                 >
                   Candidate Onboarding
@@ -74,7 +66,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/features/projects"
+                  to="/features/project-management"
                   className="text-footer-muted hover:text-primary-accent transition-colors text-sm"
                 >
                   Project Tracking
@@ -132,7 +124,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  to="/company#about"
+                  to="/company"
                   className="text-footer-muted hover:text-primary-accent transition-colors text-sm"
                 >
                   About Us

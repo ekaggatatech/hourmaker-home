@@ -411,10 +411,8 @@ export default function ScrollFeatureShowcase({
                       <div className="flex items-center gap-2.5">
                         <span className="inline-flex items-center gap-2 px-3 py-1.5 bg-primary/10 border border-primary/20 text-primary text-xs font-semibold tracking-wide uppercase">
                           <Icon className="w-3.5 h-3.5" />
-                          Feature {String(index + 1).padStart(2, "0")}
-                        </span>
-                        <span className="text-xs text-slate-400 font-medium">
-                          of {String(features.length).padStart(2, "0")}
+                          Feature {String(index + 1).padStart(2, "0")} of{" "}
+                          {String(features.length).padStart(2, "0")}
                         </span>
                       </div>
 

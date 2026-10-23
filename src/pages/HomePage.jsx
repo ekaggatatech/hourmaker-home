@@ -19,6 +19,7 @@ import {
   X,
   ArrowRight,
   Check,
+  Info,
 } from "lucide-react";
 import Layout from "../components/layout/Layout";
 import DemoModal from "../components/DemoModal";
@@ -30,6 +31,8 @@ import { faqData } from "../data/pageFaq";
 import { getRandomReviews } from "../data/reviews";
 import { getPlansForPricingRegion, getStoragePriceForRegion } from "../data/price";
 import { usePricingRegion } from "../hooks/usePricingRegion";
+import SEO from "../components/SEO";
+import { seoConfig } from "../config/seoConfig";
 
 const HomePage = () => {
   const [isDemoModalOpen, setIsDemoModalOpen] = useState(false);
@@ -74,6 +77,12 @@ const HomePage = () => {
 
   return (
     <Layout>
+      <SEO
+        title={seoConfig.home.title}
+        description={seoConfig.home.description}
+        keywords={seoConfig.home.keywords}
+        canonicalUrl={seoConfig.home.canonical}
+      />
       {/* Hero Section — light */}
       <section className="relative section-band-light py-16 lg:py-24 overflow-hidden">
         <span className="float-orb float-orb-a" aria-hidden />
@@ -81,7 +90,7 @@ const HomePage = () => {
         <div className="container relative">
           {/* Add H1 for SEO */}
           <h1 className="sr-only">
-            Time Tracking Software | Automated Workforce Management Tool
+            {seoConfig.home.h1}
           </h1>
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <ScrollReveal
@@ -586,11 +595,6 @@ const HomePage = () => {
                       </div>
                     )}
 
-                    {/* Plan Category */}
-                    <div className="text-center text-primary text-[10px] font-bold tracking-wider uppercase mt-3 mb-1.5">
-                      {plan.name}
-                    </div>
-
                     {/* Plan Name */}
                     <h3 className="text-center text-xl font-bold text-primary-dark mb-3">
                       {plan.name}
@@ -668,6 +672,16 @@ const HomePage = () => {
                     >
                       {buttonText}
                     </button>
+                    {plan.id === "basic" ? (
+                      <p className="mt-2 text-center text-[10px] text-muted-foreground">
+                        Lifetime free for up to 5 employees.
+                      </p>
+                    ) : (
+                      <p className="mt-2 flex items-center justify-center gap-1 text-center text-[10px] text-muted-foreground">
+                        <Info className="h-3 w-3 flex-shrink-0" aria-hidden="true" />
+                        No credit card required for your 30-day free trial.
+                      </p>
+                    )}
                   </div>
                 );
               })}

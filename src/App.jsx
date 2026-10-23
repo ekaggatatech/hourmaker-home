@@ -8,7 +8,6 @@ import PricingPage from "./pages/PricingPage.jsx";
 import CompanyPage from "./pages/CompanyPage.jsx";
 import DocumentationPage from "./pages/DocumentationPage.jsx";
 import ResourcesPage from "./pages/ResourcesPage.jsx";
-import CareersPage from "./pages/CareersPage.jsx";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage.jsx";
 import TermsPage from "./pages/TermsPage.jsx";
 import BlogPostPage from "./pages/BlogPostPage.jsx";
@@ -39,7 +38,6 @@ const App = () => (
 
           <Route path="/documentation" element={<DocumentationPage />} />
           <Route path="/resources" element={<ResourcesPage />} />
-          <Route path="/careers" element={<CareersPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />

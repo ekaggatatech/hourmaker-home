@@ -59,6 +59,5 @@ The application features the following main routes:
 - `/features` & `/features/:slug` - Feature Overview and Details
 - `/documentation` - Documentation
 - `/resources` - Resources
-- `/careers` - Careers
 - `/blog/:slug` - Blog Posts
 - Legal pages (`/privacy-policy`, `/terms`)

@@ -11,9 +11,12 @@ const SEO = ({
   schemaData = null,
 }) => {
   const siteTitle = "HourMaker - Time Tracking Software";
-  const fullTitle = title ? `${title} | HourMaker` : siteTitle;
+  const fullTitle = title || siteTitle;
   const siteUrl = SITE_URL;
   const fullCanonical = canonicalUrl ? `${siteUrl}${canonicalUrl}` : siteUrl;
+  const keywordContent = Array.isArray(keywords)
+    ? keywords.join(", ")
+    : keywords;
 
   return (
     <Helmet>
@@ -21,7 +24,7 @@ const SEO = ({
       <title>{fullTitle}</title>
       <meta name="title" content={fullTitle} />
       <meta name="description" content={description} />
-      {keywords && <meta name="keywords" content={keywords} />}
+      {keywordContent && <meta name="keywords" content={keywordContent} />}
       <link rel="canonical" href={fullCanonical} />
 
       {/* Open Graph */}

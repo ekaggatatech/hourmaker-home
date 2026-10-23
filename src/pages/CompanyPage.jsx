@@ -34,6 +34,8 @@ import {
   ChevronDown,
 } from "lucide-react";
 import Layout from "../components/layout/Layout";
+import SEO from "../components/SEO";
+import { seoConfig } from "../config/seoConfig";
 import ScrollReveal from "../components/ui/ScrollReveal";
 import { submitContactForm } from "../services/firebaseService";
 import { features } from "../data/features";
@@ -233,13 +235,19 @@ const CompanyPage = () => {
 
   return (
     <Layout>
+      <SEO
+        title={seoConfig.company.title}
+        description={seoConfig.company.description}
+        keywords={seoConfig.company.keywords}
+        canonicalUrl={seoConfig.company.canonical}
+      />
       {/* Hero Section */}
       <section className="section-band-light py-20 text-center">
         <span className="float-orb float-orb-a" aria-hidden />
         <span className="float-orb float-orb-c" aria-hidden />
         <ScrollReveal className="container max-w-4xl relative z-10">
           <h1 className="font-poppins text-3xl md:text-4xl lg:text-5xl font-bold text-primary-dark mb-6">
-            About <span className="text-primary">HourMaker</span>
+            {seoConfig.company.h1}
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
             Making Every Working Hour Count — An all-in-one workforce and
@@ -606,7 +614,7 @@ const CompanyPage = () => {
         <span className="float-orb float-orb-c" aria-hidden />
         <div className="container relative z-10">
           <ScrollReveal className="section-title">
-            <h2>Contact Us</h2>
+            <h2>{seoConfig.contact.h1}</h2>
             <p className="text-slate-300">We'd love to hear from you</p>
           </ScrollReveal>
           <div className="grid lg:grid-cols-2 gap-12">
