@@ -38,7 +38,7 @@ const featureCategories = [
     name: "Collaboration",
     items: [
       { label: "Meeting Scheduling", href: "/features/meeting-management" },
-      { label: "Docs Portal", href: "/features/document-management" },
+      { label: "Document Management", href: "/features/document-management" },
     ],
   },
   {
