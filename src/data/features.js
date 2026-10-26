@@ -1591,9 +1591,9 @@ export const features = [
         benefits: ["Version tracking", "History view", "Restore capability"],
       },
       {
-        title: "Document Portal",
+        title: "Document Management Portal",
         explanation:
-          "Personalized document portal for employees to access company documents, policies, and resources.",
+          "Personalized document management portal for employees to access company documents, policies, and resources.",
         benefits: ["Self-service", "Easy access", "Resource center"],
       },
     ],
