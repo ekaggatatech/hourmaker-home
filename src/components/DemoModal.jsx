@@ -890,7 +890,7 @@ const DemoModal = ({ open, onOpenChange, preselectedPlan = "pro", billingInterva
                       disabled={isSubmitting}
                       className="w-full py-2.5 text-sm bg-transparent border-2 border-border text-foreground font-poppins font-semibold rounded-lg hover:bg-muted/30 transition-all duration-200"
                     >
-                      Skip for now
+                      Skip without adding card
                     </button>
                   </div>
                 </form>
