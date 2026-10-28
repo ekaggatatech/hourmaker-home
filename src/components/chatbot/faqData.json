@@ -472,6 +472,10 @@
         "starter price",
         "free price",
         "free plan",
+        "free forever",
+        "lifetime free",
+        "up to five employees",
+        "up to 5 employees",
         "professional price",
         "enterprise price",
         "per user cost",
@@ -481,8 +485,8 @@
         "payment options"
       ],
       "answers": [
-        "Hourmaker has three plans, priced per user per month: Free at ₹0/mo (up to 5 employees), Pro at ₹65/mo or ₹58/mo billed annually (min 6 seats), and Enterprise at ₹90/mo or ₹80/mo billed annually (min 25 seats). Paid plans include a 30-day free trial.",
-        "Free is ₹0 for small teams up to 5 employees. Pro is ₹65/user/month (₹58 billed annually) for growing teams. Enterprise is ₹90/user/month (₹80 billed annually) for larger teams.",
+        "Hourmaker has three plans: Free at ₹0 for teams of up to 5 employees with no time limit, Pro at ₹65/mo or ₹58/mo billed annually (min 6 seats), and Enterprise at ₹90/mo or ₹80/mo billed annually (min 25 seats). Paid plans include a 30-day free trial with no credit card required.",
+        "The Free plan is free for teams of up to 5 employees with no time limit. Pro is ₹65/user/month (₹58 billed annually) for growing teams. Enterprise is ₹90/user/month (₹80 billed annually) for larger teams.",
         "Pricing is per user per month: Free ₹0, Pro ₹65 (or ₹58 annually), Enterprise ₹90 (or ₹80 annually). All paid plans include a 30-day free trial with no credit card required."
       ]
     },
@@ -501,12 +505,14 @@
         "try for free",
         "free demo",
         "no credit card",
+        "credit card required",
+        "30 day free trial",
         "trial period",
         "free access",
         "try before buy"
       ],
       "answers": [
-        "Yes! You get a 30-day free trial on all paid plans with full access to all features. No credit card required to start - you can experience everything our platform offers risk-free.",
+        "Yes! You get a 30-day free trial on all paid plans with full access to all features. No credit card is required to start.",
         "Absolutely! Our free trial gives you complete access to all paid plan features for 30 days. You can test automatic time tracking, scheduling, leave management, and all other features without any commitment.",
         "Definitely! Start your 30-day free trial today and explore everything Hourmaker has to offer. No credit card needed, and you can cancel anytime during the trial period."
       ]

@@ -186,12 +186,12 @@ export const featureSEO = {
     h1: "Meeting Scheduling Software for Teams",
   },
   "document-management": {
-    title: "Employee Document Management Software | Docs Portal",
+    title: "Employee Document Management Software | Document Management",
     description:
-      "Store, organize and access important employee and business documents with a centralized digital docs portal.",
+      "Store, organize and access important employee and business documents with a centralized digital document management system.",
     keywords:
       "employee document management software, document management system, employee document portal, business document management, digital document portal",
-    h1: "Employee Document Management & Docs Portal",
+    h1: "Employee Document Management & Document Management",
   },
   "user-management": {
     title: "User Management Software | Manage Business Users",

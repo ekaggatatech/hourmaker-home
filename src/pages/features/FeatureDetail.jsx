@@ -14,6 +14,7 @@ import Layout from "../../components/layout/Layout";
 import { getFeatureBySlug, features } from "../../data/features";
 import DemoModal from "../../components/DemoModal";
 import ScrollReveal from "../../components/ui/ScrollReveal";
+import YoutubeVideoThumbnail from "../../components/YoutubeVideoThumbnail";
 import SEO from "../../components/SEO";
 import { featureSEO } from "../../config/seoConfig";
 
@@ -74,6 +75,7 @@ const FeatureDetail = () => {
 
   // Construct image path
   const imagePath = `/assets/${feature.image}`;
+  const featureFallbackImage = `/assets/${feature.image || "feature-dashboard.png"}`;
 
   //SEO
   const seoData = featureSEO[feature.id] || {
@@ -146,14 +148,13 @@ const FeatureDetail = () => {
                 onClick={() => setIsVideoModalOpen(true)}
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl transform rotate-2 group-hover:rotate-1 transition-transform"></div>
-                <div className="relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden shadow-xl border border-white/10 img-zoom">
-                  <img
-                    src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
-                    alt={`${feature.title} - Demo Video`}
-                    className="w-full h-auto"
-                    onError={(e) => {
-                      e.target.src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
-                    }}
+                <div className="relative aspect-video bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden shadow-xl border border-white/10 img-zoom">
+                  <YoutubeVideoThumbnail
+                    key={videoId}
+                    videoId={videoId}
+                    title={`${feature.title} - Demo Video`}
+                    fallbackImage={featureFallbackImage}
+                    className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="w-24 h-24 bg-white/90 rounded-full flex items-center justify-center shadow-xl transform group-hover:scale-110 transition-transform duration-300">

@@ -15,7 +15,7 @@ export const faqData = {
     },
     {
       id: 3,
-      question: "Is there a free trial available?",
+      question: "Do I need a credit card for the 30-day free trial?",
       answer:
         "Yes, we offer a 30-day free trial on all paid plans with full access to all features. No credit card required to start the trial.",
     },
@@ -61,12 +61,18 @@ export const faqData = {
       answer:
         "We release updates every two weeks with new features and improvements. Major updates are announced in advance with release notes.",
     },
+    {
+      id: 11,
+      question: "Is Hourmaker free for teams with up to five employees?",
+      answer:
+        "Yes. Hourmaker's Free plan is free for teams with up to five employees, with no time limit.",
+    },
   ],
 
   pricing: [
     {
       id: 1,
-      question: "Is there a free trial available?",
+      question: "Do I need a credit card for the 30-day free trial?",
       answer:
         "Yes! We offer a 30-day free trial on all paid plans with full access to all features. No credit card required to start.",
     },
@@ -123,6 +129,12 @@ export const faqData = {
       question: "What's included in the Enterprise plan?",
       answer:
         "Enterprise includes all Professional features plus custom integrations, dedicated account manager, on-premise deployment option, SSO, advanced security, custom reporting, and 24/7 premium support.",
+    },
+    {
+      id: 11,
+      question: "Is Hourmaker free for teams with up to five employees?",
+      answer:
+        "Yes. Hourmaker's Free plan is free for teams with up to five employees, with no time limit.",
     },
   ],
 };

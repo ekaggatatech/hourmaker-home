@@ -30,7 +30,11 @@ export const TRIAL_REGION_PRICING = {
   },
 };
 
-export const getTrialPlanPrice = (regionCode, planId, billingInterval = "monthly") => {
+export const getTrialPlanPrice = (
+  regionCode,
+  planId,
+  billingInterval = "monthly",
+) => {
   const region = TRIAL_REGION_PRICING[regionCode];
   if (!region?.plans[planId]) return null;
   return billingInterval === "annual"
@@ -56,7 +60,7 @@ export const PRICING_DATA = {
           "Clients, teams & projects",
           "Manual timesheets & leave",
           "Shifts, holidays & meetings",
-          "Announcements & company profile"
+          "Announcements & company profile",
         ],
         excluded: [],
       },
@@ -84,7 +88,7 @@ export const PRICING_DATA = {
           "Auto Time Tracker",
           "Reports & analytics",
           "Docs portal",
-          "Manual invoicing"
+          "Manual invoicing",
         ],
         excluded: [],
       },
@@ -113,7 +117,7 @@ export const PRICING_DATA = {
           "Automatic invoicing",
           "Full reporting suite",
           "Recruitment + referrals + docs",
-          "Onboarding and Offboarding"
+          "Onboarding and Offboarding",
         ],
         excluded: [],
       },
@@ -173,7 +177,7 @@ export const PRICING_DATA = {
             proplus: true,
             enterprise: true,
           },
-        }
+        },
       ],
     },
     {
@@ -503,7 +507,7 @@ export const PRICING_DATA = {
   faqs: [
     {
       id: 1,
-      question: "Is there a free trial available?",
+      question: "Do I need a credit card for the 30-day free trial?",
       answer:
         "Yes! We offer a 30-day free trial of our paid plans with full access to all features. No credit card required to start.",
     },
@@ -560,6 +564,12 @@ export const PRICING_DATA = {
       question: "Do all plans include the same features?",
       answer:
         "Yes! All plans include the same comprehensive features. The only difference is the employee limit and pricing tier. This means you get access to all features regardless of which plan you choose.",
+    },
+    {
+      id: 11,
+      question: "Is Hourmaker free for teams with up to five employees?",
+      answer:
+        "Yes. Hourmaker's Free plan is free for teams with up to five employees, with no time limit.",
     },
   ],
 };
